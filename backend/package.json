@@ -1,19 +1,17 @@
 {
-  "name": "javascript-backend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "a basic app deploy",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon server.js"
   },
-  "keywords": [
-    "arpit-notes"
-  ],
-  "author": "arpit",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
     "express": "^4.19.2"
   }
 }

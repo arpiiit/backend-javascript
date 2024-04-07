@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <h1>backend with Arpit</h1>
+      <h1>backend with Arpit Mishra</h1>
       <p>Jokes : {jokes.length}</p>
 
       {jokes.map((joke, index) => (
